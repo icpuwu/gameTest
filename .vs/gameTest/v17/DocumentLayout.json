@@ -1,44 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\playcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\playcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|d:\\\u4F7F\u7528\u8005\u52FF\u522A\\pictures\\pr\\unity\\car\\gametest\\assets\\scripts\\play scene scripts\\playerblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\playerblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\moveforward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\moveforward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\textboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\textboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|d:\\\u4F7F\u7528\u8005\u52FF\u522A\\pictures\\pr\\unity\\car\\gametest\\assets\\scripts\\buttonclicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonclicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\enemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\enemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\dooropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dooropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\delbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\delbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\petty\\source\\repos\\gameTest\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,121 +9,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ButtonClicker.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\ButtonClicker.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonClicker.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\ButtonClicker.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ButtonClicker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T18:21:58.885Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "delBullet.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\delBullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\delBullet.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\delBullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\delBullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:16:27.671Z"
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:52:50.584Z"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemyShoot.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\EnemyShoot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\EnemyShoot.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\EnemyShoot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\EnemyShoot.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAA/wE8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T12:10:25.932Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "playController.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\playController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\playController.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\playController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\playController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAYwGgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:36:54.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "doorOpen.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\doorOpen.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\doorOpen.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\doorOpen.cs",
-              "RelativeToolTip": "Assets\\Scripts\\doorOpen.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T17:29:44.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "moveforward.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\moveforward.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\moveforward.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\moveforward.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\moveforward.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:31:04.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "playerBlood.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\playerBlood.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\playerBlood.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\playerBlood.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\playerBlood.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T17:09:53.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TextboxController.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\TextboxController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TextboxController.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\TextboxController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TextboxController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T07:11:03.571Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
