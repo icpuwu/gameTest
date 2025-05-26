@@ -3,7 +3,7 @@ using UnityEngine;
 public class DropBall : MonoBehaviour
 {
     Rigidbody DropBallRg;
-    public int speed=10 ;
+    public int speed = 10;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,3 +25,5 @@ public class DropBall : MonoBehaviour
             upenemyRg.constraints = RigidbodyConstraints.FreezePositionY;
         }
     }
+
+}

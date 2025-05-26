@@ -446,3 +446,15 @@ Memory consumption went from 175.9 MB to 170.0 MB.
 Total: 428.319200 ms (FindLiveObjects: 4.685200 ms CreateObjectMapping: 1.432600 ms MarkObjects: 414.771900 ms  DeleteObjects: 7.425100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6532 unused Assets / (6.1 MB). Loaded Objects now: 7495.
+Memory consumption went from 175.9 MB to 169.8 MB.
+Total: 227.337700 ms (FindLiveObjects: 8.251300 ms CreateObjectMapping: 1.163800 ms MarkObjects: 211.455800 ms  DeleteObjects: 6.462600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
