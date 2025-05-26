@@ -16,4 +16,12 @@ public class DropBall : MonoBehaviour
     {
         DropBallRg.AddForce(Vector3.down * speed, ForceMode.Impulse);
     }
-}
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("floor"))
+        {
+            collideWithFloor = true;
+            upenemyRg.constraints = RigidbodyConstraints.FreezePositionV;
+        }
+    }
