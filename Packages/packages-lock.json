@@ -231,7 +231,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.toonshader": {
-      "version": "file:D:/使用者勿刪/Pictures/pr/unity/com.unity.toonshader-development-v1/com.unity.toonshader",
+      "version": "file:../com.unity.toonshader-development-v1/com.unity.toonshader",
       "depth": 0,
       "source": "local",
       "dependencies": {
