@@ -22,6 +22,6 @@ public class DropBall : MonoBehaviour
         if (other.CompareTag("floor"))
         {
             collideWithFloor = true;
-            upenemyRg.constraints = RigidbodyConstraints.FreezePositionV;
+            upenemyRg.constraints = RigidbodyConstraints.FreezePositionY;
         }
     }
