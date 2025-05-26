@@ -29,6 +29,9 @@ public class PlayController : MonoBehaviour
      public AudioClip sprintSound;
      public AudioClip dyingSound;
      bool alreadyPlay = false;
+
+    public bool isRunning;
+
     void Start()
     {
 
@@ -87,7 +90,7 @@ public class PlayController : MonoBehaviour
 
         bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
         bool hashorizontal = !Mathf.Approximately(horizontal, 0f);
-        bool isRunning = hashorizontal || hasVerticalInput;
+        isRunning = hashorizontal || hasVerticalInput;
 
         playerAni.SetBool("isRunning", isRunning);
 

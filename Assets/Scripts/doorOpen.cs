@@ -36,11 +36,13 @@ public class doorOpen : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        e.SetActive(true);
         doorani.SetBool("doorOpen", true);
         enter = true;
     }
     private void OnTriggerExit(Collider other)
     {
+        e.SetActive(false);
         doorani.SetBool("doorOpen", false);
         enter = false;
     }

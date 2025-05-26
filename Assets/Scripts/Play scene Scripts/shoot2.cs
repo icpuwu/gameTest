@@ -1,44 +1,28 @@
 using UnityEngine;
+using En;
 using System.Collections;
 
 public class shoot2 : MonoBehaviour
 {
     bool attack = false;
     public Transform shootPoint;
-
     public GameObject bullet;
     GameObject newbullet;
+    Enemy en;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        StartCoroutine(prepare());
+        en = GetComponent<Enemy>();
+        en.Init(bullet);
+        en.StartPrepare();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (attack == true)
-        {
-            Vector3 fwd = transform.forward;
-            newbullet = Instantiate(bullet, shootPoint.position, Quaternion.LookRotation(fwd));
-            Rigidbody newrb = newbullet.GetComponent<Rigidbody>();
-            newrb.linearVelocity = fwd * 100.0f; // the speed of bullet
-            attack = false;
-            StartCoroutine(shooot());
-        }
+        en.NormalEnemyAttack(shootPoint);
     }
 
-    IEnumerator shooot()
-    {
-        yield return new WaitForSeconds(2.0f);
-        attack = true;
-
-    }
-
-    IEnumerator prepare()
-    {
-        yield return new WaitForSeconds(0.5f);
-        attack = true;
-    }
+   
 }

@@ -1,0 +1,6 @@
+A
+B
+C
+showStageImage
+clossStageImage
+clossAllEmo

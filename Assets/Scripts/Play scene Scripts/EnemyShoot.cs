@@ -1,12 +1,13 @@
+using En;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 
 public class EnemyShoot : MonoBehaviour
 {
     //this is use for shooting player.
-
-    
     public GameObject player;
     public GameObject Bullet;
     public Transform shootPoint;
@@ -15,71 +16,58 @@ public class EnemyShoot : MonoBehaviour
 
     Rigidbody emenyrb;
     Rigidbody playerrg;
-    bool attack = false;
-
+ 
     Quaternion q;
 
     public Image bloodBar;
 
     //ENEMY HP
-    public float emenyHp = 100;
+    public ParticleSystem boom;
+    public GameObject wincamera;
+    Animator enemyan;
+    AudioSource emenyad;
+    public AudioClip booom;
+    
+    Enemy en;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         emenyrb = GetComponent<Rigidbody>();
+        enemyan = GetComponent<Animator>();
         playerrg = player.GetComponent<Rigidbody>();
-        StartCoroutine(prepare());
+        emenyad = GetComponent<AudioSource>();
         playcontroller = player.gameObject.GetComponent<PlayController>();
+
+
+
+        en = GetComponent<Enemy>(); //àˆmonoBehaviorñ≥ñ@îÌõâó·âª
+                                    //èäà»ç›îáíºê⁄éÊìæEnemy class
+
+        en.Init(playerrg, emenyrb, bloodBar, Bullet);
+        en.SetEnemyBeenKill(enemyan, player, wincamera, boom, emenyad, booom);
+        en.StartPrepare(); //í¥çìâÑéûånìù
+
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        lookForPlayer();
-       if(attack == true)
-        {
-            newBullet = Instantiate(Bullet, shootPoint.position, q);
-            Rigidbody newrb = newBullet.GetComponent<Rigidbody>();
-            newrb.linearVelocity = transform.forward * 100.0f; // the speed of bullet
-            attack = false;
-            StartCoroutine(shooot());
-        }
+        en.EnemyAttack(shootPoint);
     }
 
-    public void lookForPlayer()
-    {
-        Vector3 dir = playerrg.position - transform.position;
-        q = Quaternion.LookRotation(dir);
-        emenyrb.MoveRotation(q);
-        
-    }
-
-    IEnumerator shooot()
-    {
-        yield return new WaitForSeconds(2.0f);
-        attack = true;
-        
-    }
-
-    IEnumerator prepare()
-    {
-        yield return new WaitForSeconds(0.5f);
-        attack = true;
-    }
 
     private void OnTriggerEnter(Collider other)
     {
        
         if (other.CompareTag("playerBullet"))
         {
-            
-            emenyHp = emenyHp - 20;
-            bloodBar.fillAmount = emenyHp / 100.0f;
+
+            en.EnemyGetDamage(20);
             Destroy(other.gameObject);
         }
     }
 
-   
+  
 }

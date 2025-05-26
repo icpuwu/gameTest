@@ -9,6 +9,7 @@ public class enterTrigger : MonoBehaviour
     public GameObject player;
     public GameObject mark;
 
+
     public GameObject e;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,7 +21,7 @@ public class enterTrigger : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.E)&&enterIcpR)
+        if (Input.GetKeyDown(KeyCode.E)&& enterIcpR)
         {
             e.SetActive(false);
             player.SetActive(false);
@@ -33,13 +34,17 @@ public class enterTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
-        enterIcpR = true;
+        if (other.CompareTag("Player"))
+        {
+            e.SetActive(true);
+            enterIcpR = true;
+        }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            e.SetActive(false);
             enterIcpR = false;
         }
     }

@@ -3,19 +3,31 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
+using UnityEngine.SceneManagement;
+using Unity.Jobs;
 
 public class TextboxController : MonoBehaviour
 {
     public TextMeshProUGUI text;
     public Image Inormal;
     public Image ISmile;
+    public Image IHappy;
+    public GameObject Panel;
+    public GameObject stageImage;
     public AudioClip popSound;
     AudioSource textBoxAudio;
 
     //load text and Emotion
     public TextAsset txt;
+    public TextAsset emotion;
+    public TextAsset stagess;
+
     List<string> texts = new List<string>();
-    int index = 0;
+    List<string> emo = new List<string>();
+    List<string> stages = new List<string>();
+    public int index = 0;
+    bool appearLine = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,10 +46,15 @@ public class TextboxController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
+            
+
             if (index < texts.Count)
             {
+                SceneLoader(index);
+                if(appearLine)
                 dialogue(texts[index + 1]);
             }
+
             
         }
     }
@@ -45,11 +62,24 @@ public class TextboxController : MonoBehaviour
     void loadText(TextAsset t)
     {
         texts.Clear();
+        emo.Clear();
+        stages.Clear();
 
         var textdata =  t.text.Split("\n");
+        var emotiondata = emotion.text.Split("\n");
+        var sta = stagess.text.Split("\n");
+
         foreach(var tt in textdata)
         {
             texts.Add(tt);
+        }
+        foreach(var e in emotiondata)
+        {
+            emo.Add(e);
+        }
+        foreach(var ss in sta)
+        {
+            stages.Add(ss);
         }
     }
 
@@ -60,25 +90,63 @@ public class TextboxController : MonoBehaviour
             text.text = t;
             textBoxAudio.PlayOneShot(popSound);
             index += 2;
-            Debug.Log(index);
         
-
+        Debug.Log(index);
     }
 
     void EmotionController(int i)
     {
-        if (texts[i] == texts[0])//Set Inormal to active
+        if (texts[i] == emo[0])//Set Inormal to active
         {
             Inormal.gameObject.SetActive(true);
             ISmile.gameObject.SetActive(false);
+            IHappy.gameObject.SetActive(false);
+            
 
         }
-        else if (texts[i] == texts[2]) //Set ISmile to active
+        else if (texts[i] == emo[1]) //Set ISmile to active
         {
             Inormal.gameObject.SetActive(false);
+            IHappy.gameObject.SetActive(false);
             ISmile.gameObject.SetActive(true);
+        }
+        else if (texts[i] == emo[2]) //Set IHappy to active
+        {
+            Inormal.gameObject.SetActive(false);
+            ISmile.gameObject.SetActive(false);
+            IHappy.gameObject.SetActive(true);
+        }
+        else if (texts[i] == emo[3]) //Set Bg to stage
+        {
+            Panel.SetActive(false);
+            stageImage.SetActive(true);
+        }
+        else if (texts[i] == emo[4])
+        {
+            Panel.SetActive(true);
+            stageImage.SetActive(false);
+        }
+        else if (texts[i] == emo[5])
+        {
+            Inormal.gameObject.SetActive(false);
+            ISmile.gameObject.SetActive(false);
+            IHappy.gameObject.SetActive(false);
         }
         else
             Debug.Log(texts[i]);
+    }
+
+    void SceneLoader(int i)
+    {
+        if (texts[i] == stages[0])
+        {
+            appearLine = false;
+            SceneManager.LoadScene("level 1");
+        }
+        else if (texts[i] == stages[1])
+        {
+            appearLine = false;
+            SceneManager.LoadScene("level 2");
+        }
     }
 }

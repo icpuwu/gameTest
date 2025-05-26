@@ -8,7 +8,7 @@ using System.Net.NetworkInformation;
 public class playerBlood : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    int blood = 3;
+    public int blood = 3;
     public GameObject heart1;
     public GameObject heart2;
     public GameObject heart3;
@@ -19,6 +19,7 @@ public class playerBlood : MonoBehaviour
     Animator playerani;
     SkinnedMeshRenderer smr;
     public GameObject dyingCamera;
+    
     
    
     void Start()
