@@ -4,6 +4,7 @@ public class DropBall : MonoBehaviour
 {
     Rigidbody DropBallRg;
     public int speed = 10;
+    bool collideWithFloor = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
