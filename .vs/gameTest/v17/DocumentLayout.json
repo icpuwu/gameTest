@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|d:\\\u4F7F\u7528\u8005\u52FF\u522A\\pictures\\pr\\unity\\car\\gametest\\assets\\scripts\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\textboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\textboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|d:\\\u4F7F\u7528\u8005\u52FF\u522A\\pictures\\pr\\unity\\car\\gametest\\assets\\scripts\\gameover scene\\returnbut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover scene\\returnbut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Text.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Text.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Text.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Text.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Text.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Title": "returnBut.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\gameover scene\\returnBut.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\gameover scene\\returnBut.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\gameover scene\\returnBut.cs",
+              "RelativeToolTip": "Assets\\Scripts\\gameover scene\\returnBut.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T17:37:06.56Z",
+              "WhenOpened": "2025-05-27T16:16:07.959Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TextboxController.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\TextboxController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TextboxController.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\TextboxController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TextboxController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:59:11.855Z"
             }
           ]
         }

@@ -1,8 +1,19 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+/*         ＬＯＯＫ　ＨＥＲＥ　！！！
+
+if the annotation r Garbled characters pls turn ur own computer code to japanese computer code
+cuz mine computer is japanese computer code :D
+or find a way to decode it urself idk
+
+i already try turn all the script to UTF-8 code but idk its successful or not
+
+*/
+
+//和Scripts - PlayerController.cs 的東西差不多只是多了些方法
 public class PlayController : MonoBehaviour
 {
     bool prepared = false;
@@ -12,8 +23,8 @@ public class PlayController : MonoBehaviour
     Animator playerAni;
     public float turnSpeed = 20f;
     Rigidbody playerRb;
-    Quaternion rotation = Quaternion.identity;
-    
+    Quaternion rotation = Quaternion.identity; //參考Unity Learn的單位四元數
+
 
     public GameObject bullet;
     public GameObject newbullet;
@@ -82,6 +93,8 @@ public class PlayController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+       
+
         float vertical = Input.GetAxis("Vertical");
         float horizontal = Input.GetAxis("Horizontal");
 
@@ -95,11 +108,15 @@ public class PlayController : MonoBehaviour
         playerAni.SetBool("isRunning", isRunning);
 
 
+        // <<以下為參考unity Learn的程式碼>>
+        //詳情參 PlayerController.cs
 
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward, playermove, turnSpeed * Time.deltaTime, 0f);
-        rotation = Quaternion.LookRotation(desiredForward); //�d�ʎl���ɁiUnit quaternion�j�ȗp���\���O�ۋ�ԗ��I���z
+        rotation = Quaternion.LookRotation(desiredForward); //單位四元數（Unit quaternion）可以用於表示三維空間裡的旋轉
 
-        if(!shooting && playerblood.gameover == false)//when shooting or gameover,cant move
+       //<<至此>>
+
+        if (!shooting && playerblood.gameover == false)//when shooting or gameover,cant move
         playerRb.AddForce(playermove * speed);
 
         if (playerblood.gameover == true && alreadyPlay == false)
@@ -110,14 +127,14 @@ public class PlayController : MonoBehaviour
 
     }
 
-    private void OnAnimatorMove()
+    private void OnAnimatorMove() // <= 此方法推薦來自GPT
     {
-        //playerRb.MovePosition(playerRb.position + playermove * playerAni.deltaPosition.magnitude*speed);
+       
         if(playerblood.gameover ==false) //when gameover,cant rotate
         playerRb.MoveRotation(rotation);
     }
 
-    IEnumerator shootEnd()
+    IEnumerator shootEnd() //the Cd of shooting Bullet(player)
     {
         yield return new WaitForSeconds(0.4f);
         playerAni.SetBool("shooting", false);
@@ -125,7 +142,7 @@ public class PlayController : MonoBehaviour
         shootCD = true;
     }
 
-    IEnumerator sprintEnd()
+    IEnumerator sprintEnd() // the Cd of sprint
     {
         yield return new WaitForSeconds(0.3f);
         playerAni.SetBool("sprint", false);

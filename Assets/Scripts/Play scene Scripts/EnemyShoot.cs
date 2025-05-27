@@ -1,9 +1,22 @@
-using En;
+﻿using En;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+
+/*         ＬＯＯＫ　ＨＥＲＥ　！！！
+
+if the annotation r Garbled characters pls turn ur own computer code to japanese computer code
+cuz mine computer is japanese computer code :D
+or find a way to decode it urself idk
+
+i already try turn all the script to UTF-8 code but idk its successful or not
+
+*/
+
+//給自瞄帶血條敵人的script
 
 public class EnemyShoot : MonoBehaviour
 {
@@ -11,13 +24,13 @@ public class EnemyShoot : MonoBehaviour
     public GameObject player;
     public GameObject Bullet;
     public Transform shootPoint;
-    GameObject newBullet;
-    PlayController playcontroller;
+   
+  
 
     Rigidbody emenyrb;
     Rigidbody playerrg;
  
-    Quaternion q;
+   
 
     public Image bloodBar;
 
@@ -37,16 +50,16 @@ public class EnemyShoot : MonoBehaviour
         enemyan = GetComponent<Animator>();
         playerrg = player.GetComponent<Rigidbody>();
         emenyad = GetComponent<AudioSource>();
-        playcontroller = player.gameObject.GetComponent<PlayController>();
+       
 
 
 
-        en = GetComponent<Enemy>(); //��monoBehavior���@�훉�ቻ
-                                    //���ȍݔ����ڎ擾Enemy class
+        en = GetComponent<Enemy>(); //因monoBehavior無法被實例化
+                                    //所以在這直接取得Enemy class
 
-        en.Init(playerrg, emenyrb, bloodBar, Bullet);
+        en.Init(playerrg, emenyrb, bloodBar, Bullet); //詳請請看Enemy.cs內介紹(enemy class)
         en.SetEnemyBeenKill(enemyan, player, wincamera, boom, emenyad, booom);
-        en.StartPrepare(); //���������n��
+        en.StartPrepare(); //超酷延時系統
 
 
     }
@@ -61,11 +74,11 @@ public class EnemyShoot : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
        
-        if (other.CompareTag("playerBullet"))
+        if (other.CompareTag("playerBullet")) //被玩家子彈碰到後的行為
         {
 
-            en.EnemyGetDamage(20);
-            Destroy(other.gameObject);
+            en.EnemyGetDamage(20);  
+            Destroy(other.gameObject); //被砸到後令玩家子彈消失
         }
     }
 

@@ -3,6 +3,21 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
+
+/*         ‚k‚n‚n‚j@‚g‚d‚q‚d@III
+
+if the annotation r Garbled characters pls turn ur own computer code to japanese computer code
+cuz mine computer is japanese computer code :D
+or find a way to decode it urself idk
+
+i already try turn all the script to UTF-8 code but idk its successful or not
+
+*/
+
+
+//gonna this change to oop if i have time
+//if i didnt forget this and i have time to change this to oop i will write annotation maybe
+
 public class talkManager3d : MonoBehaviour
 {
     bool once = false;

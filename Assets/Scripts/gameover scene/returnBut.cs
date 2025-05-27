@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+//just a return button use for back to SampleScene
+
 public class returnBut : MonoBehaviour
 {
     public Button returnbutton;

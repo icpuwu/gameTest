@@ -3,6 +3,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
+//gonna this change to oop if i have time
+//if i didnt forget this and i have time to change this to oop i will write annotation maybe
+
 public class randomTexter : MonoBehaviour
 {
     

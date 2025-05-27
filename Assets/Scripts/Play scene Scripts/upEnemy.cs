@@ -1,6 +1,15 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+/*詳參
+ 
+ 
+ https://www.canva.com/design/DAGIvykbRIw/y3KdFyxuMd9tsB4ltnlIWQ/edit?utm_content=DAGIvykbRIw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+ 
+ 
+ */
+
 
 public class upEnemy : MonoBehaviour
 {
@@ -29,7 +38,7 @@ public class upEnemy : MonoBehaviour
         if (other.CompareTag("floor"))
         {
             collideWithFloor = true;
-            upenemyRg.constraints = RigidbodyConstraints.FreezePositionY;
+            upenemyRg.constraints = RigidbodyConstraints.FreezePositionY;  // <= gpt推薦的方法 Y 軸向下/上 跑(rigidbody)用的
             StartCoroutine(del());
         }
 

@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|d:\\\u4F7F\u7528\u8005\u52FF\u522A\\pictures\\pr\\unity\\car\\gametest\\assets\\scripts\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|d:\\\u4F7F\u7528\u8005\u52FF\u522A\\pictures\\pr\\unity\\car\\gametest\\assets\\scripts\\play scene scripts\\upenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\upenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\textboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\textboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\shoot2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\shoot2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\running.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\running.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\playerblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\playerblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\moveforward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\moveforward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\playcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\playcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\enemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\enemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\foenemynottarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\foenemynottarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\enemyblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\enemyblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\assets\\scripts\\play scene scripts\\delbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E91C5F-33C9-169A-9801-865D3CCD3B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play scene scripts\\delbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +67,159 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Text.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Text.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Text.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Text.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Text.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Title": "upEnemy.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\upEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\upEnemy.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\upEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\upEnemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T17:37:06.56Z",
+              "WhenOpened": "2025-05-27T16:09:39.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TextboxController.cs",
-              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\TextboxController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TextboxController.cs",
-              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\TextboxController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TextboxController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Title": "spawnManager.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\spawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\spawnManager.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\spawnManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\spawnManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwC0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:59:11.855Z"
+              "WhenOpened": "2025-05-27T16:01:02.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "shoot2.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\shoot2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\shoot2.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\shoot2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\shoot2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:57:51.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "running.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\running.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\running.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\running.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\running.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:53:01.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "playerBlood.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\playerBlood.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\playerBlood.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\playerBlood.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\playerBlood.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:47:40.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "rotation.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\rotation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\rotation.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\rotation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\rotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:43:15.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "playController.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\playController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\playController.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\playController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\playController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:34:05.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "moveforward.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\moveforward.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\moveforward.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\moveforward.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\moveforward.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:31:23.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FoEnemyNotTarget.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\FoEnemyNotTarget.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\FoEnemyNotTarget.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\FoEnemyNotTarget.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\FoEnemyNotTarget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:27:03.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\Enemy.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\Enemy.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAswJYAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:51:15.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemyShoot.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\EnemyShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\EnemyShoot.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\EnemyShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\EnemyShoot.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:23:49.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "enemyBlood.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\enemyBlood.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\enemyBlood.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\enemyBlood.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\enemyBlood.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwB4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:59:16.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "delBullet.cs",
+              "DocumentMoniker": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\delBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play scene Scripts\\delBullet.cs",
+              "ToolTip": "D:\\\u4F7F\u7528\u8005\u52FF\u522A\\Pictures\\pr\\unity\\car\\gameTest\\Assets\\Scripts\\Play scene Scripts\\delBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play scene Scripts\\delBullet.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:49:46.025Z"
             }
           ]
         }

@@ -9,6 +9,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+/*         ＬＯＯＫ　ＨＥＲＥ　！！！
+
+if the annotation r Garbled characters pls turn ur own computer code to japanese computer code
+cuz mine computer is japanese computer code :D
+or find a way to decode it urself idk
+
+i already try turn all the script to UTF-8 code but idk its successful or not
+
+*/
+
+//這是enemy class
+
 namespace En
 {
     public class Enemy: MonoBehaviour
@@ -21,17 +34,17 @@ namespace En
 
         float emenyHp = 100;
         float bulletSpeed = 100.0f;
-        Image bloodBar;
+        Image bloodBar; //血量條
 
         Animator enemyan;
         GameObject player;
-        GameObject wincamera;
-        ParticleSystem boom;
+        GameObject wincamera; //照emeny的攝象機
+        ParticleSystem boom;  //爆炸粒子
         AudioSource emenyad;
-        AudioClip booom;
+        AudioClip booom;  //爆炸音效
 
-        GameObject Bullet;
-        GameObject newBullet;
+        GameObject Bullet; 
+        GameObject newBullet; //實例化用
 
         float fullHp = 100.0f;
 
@@ -135,7 +148,7 @@ namespace En
             }
         }
 
-        public void NormalEnemyAttack(Transform shootPoint)
+        public void NormalEnemyAttack(Transform shootPoint) //給非自瞄且非被攻擊對象敵人的enemy用的 
         {
             if (attack == true)
             {
@@ -152,7 +165,7 @@ namespace En
         }
      
 
-        public void SetEnemyBeenKill(Animator enemyan, GameObject player, GameObject wincamera,
+        public void SetEnemyBeenKill(Animator enemyan, GameObject player, GameObject wincamera, 
             ParticleSystem boom, AudioSource emenyad, AudioClip booom)
         {
             this.enemyan = enemyan;
@@ -164,39 +177,43 @@ namespace En
 
         }
 
-        void EnemyBeenKill() //用這記得先建構!!!上面那個
+        void EnemyBeenKill() //用這記得先建構!!!上面那個  //處理死亡動畫/聲音/到下個scene
         {
             enemyan.enabled = false; // let the animator stop
             player.SetActive(false);
             wincamera.SetActive(true);
             boom.Play();
             emenyad.PlayOneShot(booom);
-            StartCoroutine(toOtherLevel());
+            ToOtherLevel("talkScene");
             once = true;
         }
 
+        public void ToOtherLevel(string s)
+        {
+            StartCoroutine(toOtherLevel(s));
+        }
         public void StartPrepare() //開場延時用
         {
             StartCoroutine(prepare());
         }
 
-        IEnumerator shooot()
+        IEnumerator shooot() //發射子彈的CD
         {
             yield return new WaitForSeconds(2.0f);
             attack = true;
 
         }
 
-        IEnumerator prepare()
+        IEnumerator prepare() //開場延時用
         {
             yield return new WaitForSeconds(1.5f);
             attack = true;
         }
 
-        IEnumerator toOtherLevel()
+        IEnumerator toOtherLevel(string s) //到指定的scene
         {
             yield return new WaitForSeconds(0.7f);
-            SceneManager.LoadScene("talkScene");
+            SceneManager.LoadScene(s);
 
         }
     }
