@@ -38,7 +38,7 @@ public class upEnemy : MonoBehaviour
         if (other.CompareTag("floor"))
         {
             collideWithFloor = true;
-            upenemyRg.constraints = RigidbodyConstraints.FreezePositionY;  // <= gpt推薦的方法 Y 軸向下/上 跑(rigidbody)用的
+            upenemyRg.constraints = RigidbodyConstraints.FreezePositionY;  // <= gpt推薦的方法 鎖Y 軸向下/上 跑(rigidbody)用的
             StartCoroutine(del());
         }
 

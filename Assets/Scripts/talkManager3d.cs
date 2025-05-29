@@ -1,10 +1,11 @@
-using TMPro;
+ï»¿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using text;
 
 
-/*         ‚k‚n‚n‚j@‚g‚d‚q‚d@III
+/*         ï¼¬ï¼¯ï¼¯ï¼«ã€€ï¼¨ï¼¥ï¼²ï¼¥ã€€ï¼ï¼ï¼
 
 if the annotation r Garbled characters pls turn ur own computer code to japanese computer code
 cuz mine computer is japanese computer code :D
@@ -15,12 +16,9 @@ i already try turn all the script to UTF-8 code but idk its successful or not
 */
 
 
-//gonna this change to oop if i have time
-//if i didnt forget this and i have time to change this to oop i will write annotation maybe
-
 public class talkManager3d : MonoBehaviour
 {
-    bool once = false;
+   
     enterTrigger enter;
     public Animator ani;
     public TextMeshProUGUI text;
@@ -35,15 +33,23 @@ public class talkManager3d : MonoBehaviour
     public GameObject e;
 
     private SkinnedMeshRenderer smr;
+
+    Texter3D te3d; //è©³åƒTexter3D.cs èˆ‡Text.cs (Texter3d classçš„çˆ¶é¡åˆ¥)
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        te3d = GetComponent<Texter3D>();
+
         smr = GameObject.Find("icpR/Body").GetComponent<SkinnedMeshRenderer>();
         enter = GameObject.Find("icpR").GetComponent<enterTrigger>();
-        loadText(txt);
-        EmotionController(index);
-        text.text = texts[index + 1];
-        index += 2;
+
+        te3d.init(text, panel, icpcam, mark, e, player);
+        te3d.Emotion3DBullider(smr, ani);
+
+        te3d.loadText(txt);
+        te3d.EmotionController3D(index);
+        te3d.showTextWhenSceneOPen();
        
         
     }
@@ -52,38 +58,22 @@ public class talkManager3d : MonoBehaviour
     void Update()
     {
 
-        if (once == true )
+        if (te3d.GetOnce() == true )
         {
-
-            index = 0;
-            loadText(txt);
-            EmotionController(index);
-            text.text = texts[index + 1];
-            player.SetActive(false);
-            mark.SetActive(false);
-            index += 2;
+            te3d.SetUP(txt);
+          
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             if (index < texts.Count)
             {
-                dialogue(texts[index + 1]);
+                te3d.dialogue();
             }
             else
             {
-                
-                icpcam.SetActive(false);
-                panel.SetActive(false);
-                player.SetActive(true);
-                mark.SetActive(true);
-                ani.SetBool("thinking", false);
-                //reset emotion
-                smr.SetBlendShapeWeight(1, 0f);
-                smr.SetBlendShapeWeight(7, 0f);//a
-                index = 0;
-                once = true;
-                e.SetActive(true);
+
+                te3d.dialogueEnd();
 
             }
 
@@ -93,37 +83,5 @@ public class talkManager3d : MonoBehaviour
         }
     }
 
-    void loadText(TextAsset t)
-    {
-        texts.Clear();
-
-        var textdata = t.text.Split("\n");
-        foreach (var tt in textdata)
-        {
-            texts.Add(tt);
-        }
-    }
-    void EmotionController(int i)
-    {
-        if (texts[i] == texts[0] )
-        {
-            smr.SetBlendShapeWeight(1, 100f);//Î‚¢
-            smr.SetBlendShapeWeight(7, 70f);//‚ 
-            ani.SetBool("thinking", true);
-        }
-        else if (texts[i] == "") 
-        {
-            
-        }
-        else
-            Debug.Log(texts[i]);
-    }
-
-    void dialogue(string t)
-    {
-        EmotionController(index);
-        text.text = t;
-        index += 2;
-
-    }
+    
 }

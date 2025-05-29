@@ -184,7 +184,7 @@ namespace En
             wincamera.SetActive(true);
             boom.Play();
             emenyad.PlayOneShot(booom);
-            ToOtherLevel("talkScene");
+            ToOtherLevel("talkScene 1");
             once = true;
         }
 

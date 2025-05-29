@@ -570,6 +570,7 @@ GameObject:
   - component: {fileID: 908500502}
   - component: {fileID: 908500501}
   - component: {fileID: 908500503}
+  - component: {fileID: 908500505}
   - component: {fileID: 908500504}
   m_Layer: 5
   m_Name: Panel
@@ -757,6 +758,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &908500505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908500499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5882eb23ff8c31d4c982b52a2122af6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &962134617
 GameObject:
   m_ObjectHideFlags: 0

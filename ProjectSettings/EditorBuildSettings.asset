@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/talkScene.unity
     guid: 053e7ec83bac2614ea7d9eea133ba0a1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/play.unity
     guid: 4ff3bab06ba1e5c40bc59438720638b6
   - enabled: 1
@@ -22,7 +22,7 @@ EditorBuildSettings:
     guid: a14c6c1293b7c6946b0a40e336ab82be
   - enabled: 1
     path: Assets/Scenes/talkScene 1.unity
-    guid: 71bb1e8a0553998428634376596f7b7f
+    guid: 628bf5a30fb61df49814778fff9bb0ac
   - enabled: 1
     path: Assets/Scenes/level 2.unity
     guid: c4d2f30fbe0a01642b002b7b7a01e572

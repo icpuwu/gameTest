@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 63273243}
   - component: {fileID: 63273245}
+  - component: {fileID: 63273247}
   - component: {fileID: 63273244}
   - component: {fileID: 63273246}
   m_Layer: 5
@@ -216,6 +217,18 @@ MonoBehaviour:
   player: {fileID: 1100452144}
   mark: {fileID: 1353079596}
   e: {fileID: 1416687068}
+--- !u!114 &63273247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63273242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3356f3580e9fbb41aa1192ceb8d03d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &111991610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3567540024596803943, guid: 7ef1447486562104986050643860cb19, type: 3}

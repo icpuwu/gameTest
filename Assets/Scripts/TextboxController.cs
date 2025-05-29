@@ -1,4 +1,4 @@
-
+using text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -24,6 +24,7 @@ i already try turn all the script to UTF-8 code but idk its successful or not
 
 public class TextboxController : MonoBehaviour
 {
+    Texter2D te2d;
     public TextMeshProUGUI text;
     public Image Inormal;
     public Image ISmile;
@@ -38,22 +39,21 @@ public class TextboxController : MonoBehaviour
     public TextAsset emotion;
     public TextAsset stagess;
 
-    List<string> texts = new List<string>();
-    List<string> emo = new List<string>();
-    List<string> stages = new List<string>();
     public int index = 0;
-    bool appearLine = true;
+   
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        te2d = GetComponent<Texter2D>();
         textBoxAudio = GetComponent<AudioSource>();
-        loadText(txt);
+        te2d.init(emotion, stagess,text,Panel,textBoxAudio, popSound);
+        te2d.EmoInit(Inormal, ISmile, IHappy, stageImage);
+        te2d.loadText(txt);
 
         //Ë˚é¶ëÊàÍãÂë‰éå/ï\èÓ
-        EmotionController(index);
-        text.text = texts[index+1];
-        index+=2;
+        te2d.EmotionController();
+        te2d.showTextWhenSceneOPen();
     }
 
     // Update is called once per frame
@@ -63,105 +63,20 @@ public class TextboxController : MonoBehaviour
         {
             
 
-            if (index < texts.Count)
+            if (te2d.GetIndex() < te2d.GetTextsNum())
             {
-                SceneLoader(index);
-                if(appearLine)
-                dialogue(texts[index + 1]);
+                te2d.SceneLoader();
+                if(te2d.GetAppearLine())
+                te2d.dialogue();
             }
 
             
         }
     }
 
-    void loadText(TextAsset t)
-    {
-        texts.Clear();
-        emo.Clear();
-        stages.Clear();
 
-        var textdata =  t.text.Split("\n");
-        var emotiondata = emotion.text.Split("\n");
-        var sta = stagess.text.Split("\n");
 
-        foreach(var tt in textdata)
-        {
-            texts.Add(tt);
-        }
-        foreach(var e in emotiondata)
-        {
-            emo.Add(e);
-        }
-        foreach(var ss in sta)
-        {
-            stages.Add(ss);
-        }
-    }
 
-    void dialogue(string t) {
-
-        
-            EmotionController(index);
-            text.text = t;
-            textBoxAudio.PlayOneShot(popSound);
-            index += 2;
-        
-        Debug.Log(index);
-    }
-
-    void EmotionController(int i)
-    {
-        if (texts[i] == emo[0])//Set Inormal to active
-        {
-            Inormal.gameObject.SetActive(true);
-            ISmile.gameObject.SetActive(false);
-            IHappy.gameObject.SetActive(false);
-            
-
-        }
-        else if (texts[i] == emo[1]) //Set ISmile to active
-        {
-            Inormal.gameObject.SetActive(false);
-            IHappy.gameObject.SetActive(false);
-            ISmile.gameObject.SetActive(true);
-        }
-        else if (texts[i] == emo[2]) //Set IHappy to active
-        {
-            Inormal.gameObject.SetActive(false);
-            ISmile.gameObject.SetActive(false);
-            IHappy.gameObject.SetActive(true);
-        }
-        else if (texts[i] == emo[3]) //Set Bg to stage
-        {
-            Panel.SetActive(false);
-            stageImage.SetActive(true);
-        }
-        else if (texts[i] == emo[4])
-        {
-            Panel.SetActive(true);
-            stageImage.SetActive(false);
-        }
-        else if (texts[i] == emo[5])
-        {
-            Inormal.gameObject.SetActive(false);
-            ISmile.gameObject.SetActive(false);
-            IHappy.gameObject.SetActive(false);
-        }
-        else
-            Debug.Log(texts[i]);
-    }
-
-    void SceneLoader(int i)
-    {
-        if (texts[i] == stages[0])
-        {
-            appearLine = false;
-            SceneManager.LoadScene("level 1");
-        }
-        else if (texts[i] == stages[1])
-        {
-            appearLine = false;
-            SceneManager.LoadScene("level 2");
-        }
-    }
+  
+   
 }
