@@ -105,9 +105,13 @@ namespace En
 
         public void lookForPlayer() //使物件朝著玩家看去
         {
+            //gpt教的
+
             Vector3 dir = playerrg.position - emenyrb.transform.position;
             q = Quaternion.LookRotation(dir);
             emenyrb.MoveRotation(q);
+
+            //至此
         }
 
         public void EnemyGetDamage(float damage) 
